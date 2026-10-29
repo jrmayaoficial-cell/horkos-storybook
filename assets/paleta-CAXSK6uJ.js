@@ -1,0 +1,1 @@
+const R="#7C3AED",C="#073B4C",o="#00B8B5",E="#9DC0C9",s="#C33A34",c={APROVADA:"#1B8C63",RECUSADA:"#C33A34",REVISAR:"#B4791C",REENCAMINHADA:"#3D7285"};function D(A){return A==="RECUSADA"?s:C}export{o as A,R as C,C as P,s as R,E as S,c as a,D as c};
