@@ -1,0 +1,1 @@
+const t="var(--chart-1)",a="var(--chart-2)",s="var(--chart-3)",A="var(--chart-4)",o="var(--chart-5)",r=t,R=a,C=s,n=o;function h(c){return c==="RECUSADA"?n:r}export{R as A,A as C,r as P,n as R,C as S,h as c};
