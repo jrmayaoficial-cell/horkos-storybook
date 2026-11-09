@@ -1,0 +1,11 @@
+import{j as s}from"./jsx-runtime-B7yl4BrL.js";/* empty css                */import{C as h,L as x,a as u}from"./composicoes-BdF1D0Ek.js";import{M as S}from"./index-C8tPWWbP.js";import"./iframe-O6irGc0s.js";import"./preload-helper-D6kgxu3v.js";/* empty css              */import"./index-DymOWEBJ.js";import"./index-aSoJ-SWA.js";import"./marca-kvVvCas0.js";import"./carregando-Qpee-vr7.js";import"./v2-DUy2kPFF.js";import"./cores-D-iLqYVd.js";import"./MiniBarras-BXS10ct1.js";function C(){return s.jsxs("div",{style:{display:"grid",gap:24},children:[s.jsxs("div",{style:{display:"grid",gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))",gap:16,alignItems:"start"},children:[s.jsx(h,{}),s.jsx(u,{})]}),s.jsx("section",{className:"cartao",children:s.jsx(x,{})})]})}const I={title:"Composições/Dashboard e Sessões",component:C,decorators:[j=>s.jsx(S,{children:s.jsx(j,{})})],parameters:{layout:"padded",docs:{description:{component:'Montagens estáticas com os componentes do DS e dados fictícios: o card "Hoje" e o card de revisão do Dashboard, e linhas da tabela de Sessões (classes `hk-lista-*` do kit de lista). Não chamam a API.'}}}},e={name:"Card do Dashboard e linhas de Sessões"},a={name:'Card "Hoje"',render:()=>s.jsx("div",{style:{maxWidth:420},children:s.jsx(h,{})})},r={name:"Linhas de Sessões",render:()=>s.jsx("section",{className:"cartao",children:s.jsx(x,{})})},R=["Padrao","SoCard","SoLinhas"];var o,i,t;e.parameters={...e.parameters,docs:{...(o=e.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  name: "Card do Dashboard e linhas de Sessões"
+}`,...(t=(i=e.parameters)==null?void 0:i.docs)==null?void 0:t.source}}};var d,c,n;a.parameters={...a.parameters,docs:{...(d=a.parameters)==null?void 0:d.docs,source:{originalSource:`{
+  name: "Card \\"Hoje\\"",
+  render: () => <div style={{
+    maxWidth: 420
+  }}><CardDashboardFicticio /></div>
+}`,...(n=(c=a.parameters)==null?void 0:c.docs)==null?void 0:n.source}}};var m,p,l;r.parameters={...r.parameters,docs:{...(m=r.parameters)==null?void 0:m.docs,source:{originalSource:`{
+  name: "Linhas de Sessões",
+  render: () => <section className="cartao"><LinhasSessoesFicticias /></section>
+}`,...(l=(p=r.parameters)==null?void 0:p.docs)==null?void 0:l.source}}};export{e as Padrao,a as SoCard,r as SoLinhas,R as __namedExportsOrder,I as default};
